@@ -1,0 +1,337 @@
+.bg-dark {
+  background-color: #00bed6!important;
+}
+.text-white {
+  color: #ffc107!important;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: auto;
+}
+}
+.navbar {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px){
+  .d-md-block {
+    display: block!important;
+ }
+}
+
+.card {
+  background-color: #fff;
+  border: 0px solid rgba(0,0,0,.125);
+}
+.margin{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.color{
+  margin-right: 3%;
+  color: coral;
+}
+
+/* color footer */
+.bg-primary {
+  background-color: #333!important;
+}
+.row {
+  margin-left: calc(var(--bs-gutter-x) * .5);
+}
+.center{
+  text-align: center;
+}
+.text-right{
+text-align: right;
+}
+/* css contact */
+
+.active {
+  /* background-color: #ffc107; */
+  color: white;
+}
+@font-face {
+  font-family:"Cairo", sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Cairo');
+}
+body {margin:0;
+  font-family:"Cairo", sans-serif;
+  direction: rtl;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  padding: 2.75rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  /* justify-content: center; */
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(0,0,0,.9);
+  background-color: #ffc107;
+}
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+.fullwidth
+{
+  width: 100%;
+}
+.mr-5, .mx-5 {
+  margin-left: 0rem!important;
+}
+.mt-20{
+  margin-top: 5% !important;
+}
+.mb-20{
+  margin-bottom: 10% !important;
+}
+.imag {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: bottom;
+  padding-bottom: 10%;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.col-md-4
+{position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;}
+.color{
+  color: #43a9d9;
+  margin-right:2%;
+}
+.bg-light {
+  background-color: #186785!important;
+}
+
+.center{
+  text-align: center;
+}
+
+/* .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  width: 100%;
+}
+/* color a */
+a {
+  color: #fcaf17;
+  text-decoration: none;
+  background-color: transparent;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* button up to back */
+.scroll {
+  color: #fff;
+  margin-top: 100px
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 21px;
+  background-color: hsla(5, 76%, 62%, .8)
+}
+
+.js .cd-top--fade-out {
+  opacity: .5
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: hsla(5, 76%, 62%, .8);
+  background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+.height {
+  height: 3000px
+}
+/* css name section 2 */
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+
+/* html, body {
+  height: 100%;
+  } */
+  .bg-primary {
+    background-color: #186785!important;
+}
+  body {
+    text-align: center;
+    /* background-color: hsla(230,40%,50%,1); */
+    }
+  body:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 100%;
+    }
+  h1 {
+    display: inline-block;
+    color:#186785;
+    font-family: 'Righteous', serif;
+    font-size: 12em;
+    text-shadow: 0.03em 0.03em 0 #dee2e6;
+    margin-top: 5%;
+}
+  h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+  .box-shadow-button {
+    box-shadow: 5px 5px 5px #117a8b;
+   }
+   @media screen and (max-width: 443px) {
+    h1 {
+      font-size: 10rem;
+      padding-top: 5%;
+    }
+  }
+  @media screen and (max-width: 371px) {
+    h1 {
+      font-size: 8rem;
+      padding-top: 8%;
+    }
+  }
+  .box-shadow {
+    box-shadow: 3px 2px 18px 0px #dae0e5;
+  }
+  .breadcrumb-item.active {
+    color: #0f5276;
+}

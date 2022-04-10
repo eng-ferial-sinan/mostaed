@@ -1,3 +1,11 @@
+body {margin:0;
+  font-family:"Cairo", sans-serif;
+  direction: rtl;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
@@ -263,16 +271,6 @@ figure img{width:300px;}
 .center{
   text-align: center;
 }
-/* css vedio */
-/* .embed-responsive {
-  position: relative;
-  display: block;
-  width: 90%;
-  padding-right: 10%;
-  overflow: hidden;
-  margin-right: 5%;
-  margin-bottom: 5%;
-} */
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
   position: relative;
   top: 0;
@@ -283,4 +281,11 @@ figure img{width:300px;}
   border: 0;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.bg-dark {
+  background-color: #00bed6!important;
+}
+.text-white {
+  color: #ffc107!important;
 }
