@@ -260,10 +260,14 @@ figure img{width:300px;}
   text-align: right;
   margin-right: 3%;
 }
-
+.btn-primary {
+  color: #fff;
+  background-color: #ffc501;
+  border-color: #ffc501;
+}
 /* color footer */
 .bg-primary {
-  background-color: #333!important;
+  background-color: #11978c!important;
 }
 .row {
   margin-left: calc(var(--bs-gutter-x) * .5);
@@ -284,8 +288,8 @@ figure img{width:300px;}
 }
 
 .bg-dark {
-  background-color: #00bed6!important;
+  background-color: #11978c!important;
 }
 .text-white {
-  color: #ffc107!important;
+  color: #ffc501!important;
 }
