@@ -80,7 +80,7 @@ body {margin:0;
 }
 .centered {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -104,6 +104,14 @@ body {margin:0;
 }
 .row {
   margin-left: calc(var(--bs-gutter-x) * .5);
+}
+.font-size-p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.font-size-title {
+  font-size: 48px;
+  font-weight: 500;
 }
 .center{
   text-align: center;

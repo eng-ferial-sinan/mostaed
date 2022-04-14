@@ -14,6 +14,17 @@ body {margin:0;
   font-size: 1rem;
   font-weight: 300;
 }
+.color-text{
+  color: #11978c;
+}
+.font-size-p {
+  font-size: 28px;
+  font-weight: 300;
+}
+.font-size-title {
+  font-size: 48px;
+  font-weight: 500;
+}
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
@@ -289,12 +300,16 @@ figure img{width:300px;}
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20rem;
+  height:30rem;
   border: 0;
   padding-left: 5%;
   padding-right: 5%;
 }
-
+.btn-box-shadow{
+  box-shadow: 2px 3px 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .bg-dark {
   background-color: #11978c!important;
 }
