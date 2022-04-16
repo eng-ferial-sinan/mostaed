@@ -288,7 +288,7 @@ a {
     }
   h1 {
     display: inline-block;
-    color:#186785;
+    color:#ffc107;
     font-family: 'Righteous', serif;
     font-size: 12em;
     text-shadow: 0.03em 0.03em 0 #dee2e6;
@@ -339,4 +339,16 @@ a {
   }
   .breadcrumb-item.active {
     color: #0f5276;
+}
+.mr-contact-hero{
+  background-image: url(map.png);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+}
+.mr-subhead-content{
+  color: #fcfdfd;
+}
+.form{
+  padding-right: 2%;
 }

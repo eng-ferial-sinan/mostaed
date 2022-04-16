@@ -119,3 +119,13 @@ body {margin:0;
 .text-right{
 text-align: right;
 }
+.mr-contact-hero{
+  background-image: url(https://mdbootstrap.com/img/new/slides/041.webp);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+.mr-subhead-content{
+  color: #fcfdfd;
+}

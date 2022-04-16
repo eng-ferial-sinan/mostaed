@@ -100,6 +100,7 @@ body {margin:0;
   color: #fff;
   background-color: #ffc501;
   border-color: #ffc501;
+  box-shadow: 0 16px 32px rgb(0 0 0 / 25%);
 }
 /* color footer */
 .bg-primary {
@@ -123,4 +124,14 @@ text-align: right;
 }
 .font_color{
 color: #ffc501;
+}
+.mr-contact-hero{
+  background-image: url(https://mdbootstrap.com/img/new/slides/041.webp);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+.mr-subhead-content{
+  color: #fcfdfd;
 }
