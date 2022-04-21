@@ -18,11 +18,11 @@ body {margin:0;
   color: #11978c;
 }
 .font-size-p {
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 300;
 }
 .font-size-title {
-  font-size: 48px;
+  /* font-size: 48px; */
   font-weight: 500;
 }
 .b-example-divider {
@@ -315,4 +315,24 @@ figure img{width:300px;}
 }
 .text-white {
   color: #ffc501!important;
+}
+.mr-contact-hero{
+  background-image: url(https://mdbootstrap.com/img/new/slides/041.webp);
+  height: 500px;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+.mr-subhead-content{
+  color: #fcfdfd;
+}
+.text-slide{
+  /* height: 400px; */
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+hr {
+ width: 70%;
+ float: left;
 }

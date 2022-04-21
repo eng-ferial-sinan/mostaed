@@ -118,6 +118,7 @@ body {margin:0;
 }
 .text-right{
 text-align: right;
+padding-right: 4%;
 }
 .mr-contact-hero{
   background-image: url(https://mdbootstrap.com/img/new/slides/041.webp);

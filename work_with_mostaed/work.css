@@ -120,7 +120,10 @@ body {margin:0;
   text-align: center;
 }
 .text-right{
-text-align: right;
+  text-align: right;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-left: 3%;
 }
 .font_color{
 color: #ffc501;
